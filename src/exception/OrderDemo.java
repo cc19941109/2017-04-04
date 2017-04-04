@@ -19,11 +19,12 @@ Exception类又分为运行时异常（Runtime Exception）和受检查的异常(Checked Exception
 
 
 public class OrderDemo {
-
+@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		try {
 			System.out.println("1");
-			int i =10/0;
+			
+			int i =10/0;         //java.lang.ArithmeticException: / by zero
 			System.out.println("2");
 		} catch (Exception e) {
 			

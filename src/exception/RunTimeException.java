@@ -27,7 +27,6 @@ public class RunTimeException {
 		System.out.println(string2);//null
 		System.out.println(string);//null
 		System.out.println(string2.equals(string));//false
-		
 		//System.out.println(string.toString());// java.lang.NullPointerException
 
 	}
